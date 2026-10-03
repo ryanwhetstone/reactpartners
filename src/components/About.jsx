@@ -3,13 +3,13 @@ import { useState } from "react";
 const team = [
   {
     name: "Jude Stepaniak",
-    role: "Chief Executive Officer",
+    role: "Innovator",
     initials: "JS",
     image: "/jude-stepaniak.jpg",
   },
   {
     name: "Ryan Whetstone",
-    role: "Chief Technology Officer",
+    role: "Builder",
     initials: "RW",
     image: "/ryan-whetstone.jpg",
   },
