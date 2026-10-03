@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import Approach from "./components/Approach";
 import Contact from "./components/Contact";
 import About from "./components/About";
+import ScrollToHash from "./components/ScrollToHash";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToHash />
       <div className="min-h-screen bg-white text-slate-900">
         <Navbar />
         <Routes>

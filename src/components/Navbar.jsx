@@ -9,16 +9,16 @@ export default function Navbar() {
         </Link>
         <ul className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
           <li><Link to="/about" className="hover:text-indigo-600 transition">About</Link></li>
-          <li><a href="#services" className="hover:text-indigo-600 transition">Services</a></li>
-          <li><a href="#approach" className="hover:text-indigo-600 transition">Approach</a></li>
-          <li><a href="#contact" className="hover:text-indigo-600 transition">Contact</a></li>
+          <li><Link to="/#services" className="hover:text-indigo-600 transition">Services</Link></li>
+          <li><Link to="/#approach" className="hover:text-indigo-600 transition">Approach</Link></li>
+          <li><Link to="/#contact" className="hover:text-indigo-600 transition">Contact</Link></li>
         </ul>
-        <a
-          href="#contact"
+        <Link
+          to="/#contact"
           className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700 transition"
         >
           Get a Quote
-        </a>
+        </Link>
       </nav>
     </header>
   );
